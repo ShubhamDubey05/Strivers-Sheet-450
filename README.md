@@ -20,3 +20,31 @@ The goal is to practice consistently, strengthen problem-solving skills, and pre
 
 
 📖 Sheet Reference: [Strivers A2Z DSA Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/)
+
+
+# How to start
+  
+  ## Basics of Java
+  - Introduction
+  - Memory management, Garbage Collection & Collector
+  - Flow of Program
+  - Input/Output, DataTypes, Casting, Opertors, Indetifiers, Literals 
+  - Conditions
+      - If else , elseif, switch
+  - Loops
+      - for loop
+      - while
+      - do while
+  - Functions, Scoping,  Basic Recursion  
+  - Oops (Object Oriented Programming)
+   
+   ## To Build Logic
+       - Patterns
+
+   ## Algorithm 
+     - what is algorithm
+     - characteritics 
+     - Time & Space Complexity
+     - How to calculate Complexity 
+   
+   ## Maths for DSA
