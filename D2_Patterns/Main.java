@@ -92,7 +92,71 @@ public static void Pattern8(int n ){
              System.out.println();
       } 
 }
+public static void Pattern9(int n ){
+   /*   
+      for(int i =1; i <=n; i++){ 
+        // for space 
+             for(int j =1; j <=n-i ; j++){ 
+                 System.out.print(" ");
+             }
+
+        // for star     
+             for(int k =n-i+1; k <= n+i-1; k++){ 
+                 System.out.print("*");
+             }
+
+        // for space 
+            for(int j =n+i; j <=2*n-1 ; j++){ 
+                 System.out.print(" ");
+             }
+        //line change
+             System.out.println();
+      } 
+             */
+
+
+             for(int i = 0; i < n; i++){
+               // space 
+               for(int j  = 0; j< n-i -1; j++){
+                System.out.print(" ");
+               }
+               
+                // stars
+                for(int k = 0; k<2*i+1; k++){
+                    System.out.print("*");
+                }
+
+                // space
+                for(int j  = 0; j< n-i -1; j++){
+                System.out.print(" ");
+               }
+
+               System.out.println();
+             }
+}
+public static void Pattern10(int n ){
+  
+             for(int i = 0; i < n; i++){
+               // space 
+               for(int j  = 0; j<i; j++){
+                System.out.print(" ");
+               }
+               
+                // stars
+                for(int k = 0; k< 2*n-(2*i + 1); k++){
+                    System.out.print("*");
+                }
+
+                for(int j  = 0; j<i; j++){
+                System.out.print(" ");
+               }
+
+
+               System.out.println();
+             }
+}
+
 public static void main(String[] args) {
-    Pattern8(5);
+    Pattern10(5);
 }
 }
