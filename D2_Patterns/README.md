@@ -136,3 +136,43 @@
         12    21
         123  321
         12344321
+
+## Pattern17
+
+         1 
+         2 3
+         4 5 6
+         7 8 9 10
+         11 12 13 14 15
+
+## Pattern18
+
+             A 
+             A B 
+             A B C
+             A B C D
+             A B C D E
+
+## Pattern19
+
+            A B C D E 
+            A B C D 
+            A B C 
+            A B 
+            A 
+
+## Pattern20
+
+              A 
+              B B
+              C C C
+              D D D D
+              E E E E E
+
+## Pattern21
+
+             A
+            ABA
+           ABCBA
+          ABCDCBA
+         ABCDEDCBA

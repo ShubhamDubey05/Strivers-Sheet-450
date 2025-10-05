@@ -309,7 +309,73 @@ public static void Pattern16(int n){
          System.out.println();
     }
 }
+
+public static void Pattern17(int n){
+    int count  = 1;
+    for(int i =1; i<=n; i++){
+            for(int j = 1; j<=i; j++){
+                System.out.print(count++ +" ");
+            }
+            System.out.println();
+    }
+}
+
+public static void Pattern18(int n){
+    for(int i =1; i<=n; i++){
+        char ch = 'A';
+        for(int j = 1; j<=i; j++){
+             System.out.print(ch++ +" ");
+        }
+        System.out.println();
+    }
+}
+
+public static void Pattern19(int n){
+    for(int i =1; i<=n ; i++){
+        char ch  = 'A';
+        for(int j = 1; j<=(n-i)+1; j++){
+             System.out.print(ch++ +" ");
+        }
+        System.out.println();
+    }
+}
+
+public static void Pattern20(int n){
+    char ch = 'A';
+    for(int i =1; i<=n; i++){
+        for(int j =1; j<=i; j++){
+            System.out.print(ch +" ");
+        }
+        ch++;
+        System.out.println();
+    }
+}
+
+public static void Pattern21(int n) {
+    for (int i = 1; i <= n; i++) {
+        // leading spaces
+        for (int j = 1; j <= n - i; j++) {
+            System.out.print(" ");
+        }
+
+        // increasing characters (A, AB, ABC, …)
+        char ch = 'A';
+        for (int j = 1; j <= i; j++) {
+            System.out.print(ch++);
+        }
+
+        // decreasing characters (for mirror side)
+        ch--; // because 'ch' is one step ahead
+        for (int j = 1; j < i; j++) {
+            System.out.print(--ch);
+        }
+
+        // move to next line
+        System.out.println();
+    }
+}
+
 public static void main(String[] args) {
-    Pattern16(4);
+    Pattern20(5);
 }
 }
