@@ -155,8 +155,86 @@ public static void Pattern10(int n ){
                System.out.println();
              }
 }
+public static void Pattern11(int n){
+    for(int i = 1; i <= 2*n; i++){
+        if(i > 4){
+            // space
+            for(int j = n; j<(i-1);j++){
+                System.out.print(" ");
+            }
+            // star 
+             for(int j = 1; j<=2*(2*n -i)+1 ; j++){
+                System.out.print("*");
+            } 
 
+            // space 
+             for(int j = n; j<(i-1);j++){
+                System.out.print(" ");
+            }
+        }
+        else {
+            // space
+            for(int j = 1; j<= (n-i);j++){
+                System.out.print(" ");
+            }
+              
+            // star
+            for(int j = 1; j<=(2*i-1) ; j++){
+                System.out.print("*");
+            } 
+            // space
+            for(int j = 1; j<= (n-i);j++){
+                System.out.print(" ");
+            } 
+        }
+        System.out.println();
+    }
+}
+public static void Pattern12(int n){
+    for(int i = 1; i<2*n;i++){
+        if(i > 4){
+            for(int j =1; j<= 2*n-i; j++){
+                System.out.print("*");
+            }
+        }
+        else{
+            for(int j = 1;j<=i;j++){
+                System.out.print("*");
+            }
+        }
+        System.out.println();
+    }
+}
+public static void Pattern13(int n){
+    for(int i =1; i<2*n; i++){
+        if(i > n){
+            // space 
+            for(int j=1; j<=i-n;j++){
+                System.out.print(" ");
+            }
+            
+            // star
+
+            for(int j=1; j<=(2*n-i); j++){
+               System.out.print("*");
+            }
+        }
+        else {
+            // space
+            for(int j=1; j<=n-i; j++){
+                System.out.print(" ");
+            }
+            // star
+
+            for(int j=1; j<=i;j++){
+                System.out.print("*");
+            }
+        }
+        System.out.println();
+       
+    }
+}
 public static void main(String[] args) {
-    Pattern10(5);
+    Pattern13(4);
 }
 }
