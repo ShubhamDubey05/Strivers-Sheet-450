@@ -234,7 +234,82 @@ public static void Pattern13(int n){
        
     }
 }
+public static void Pattern14(int n) {
+    for (int i = 1; i < 2 * n; i++) {
+
+        if (i > n) {
+            // Lower half of the butterfly
+            int stars = 2 * n - i;
+            int spaces = 2 * (i - n) - 1;
+
+            // Left stars
+            for (int j = 1; j <= stars; j++) {
+                System.out.print("*");
+            }
+
+            // Middle spaces
+            for (int j = 1; j <= spaces; j++) {
+                System.out.print(" ");
+            }
+
+            // Right stars
+            for (int j = 1; j <= stars; j++) {
+                System.out.print("*");
+            }
+
+        } else {
+            // Upper half of the butterfly
+            int stars = i;
+            int spaces = 2 * (n - i) - 1;
+
+            // Left stars
+            for (int j = 1; j <= stars; j++) {
+                System.out.print("*");
+            }
+
+            // Middle spaces
+            for (int j = 1; j <= spaces; j++) {
+                System.out.print(" ");
+            }
+
+            // Right stars
+            for (int j = 1; j <= stars; j++) {
+                System.out.print("*");
+            }
+        }
+        System.out.println();
+    }
+}
+public static void Pattern15(int n){
+       int start =1;
+    for(int i  =1; i<=n; i++){
+          start = (i % 2 == 0) ? 0 : 1;
+            for(int j =1; j<=i; j++){
+               System.out.print(start+" ");
+               start= 1-start;
+            }
+            System.out.println();
+    }
+}
+public static void Pattern16(int n){
+    for(int i =1; i<=n; i++){
+        // number
+         for(int j =1; j<=i; j++){
+            System.out.print(j);
+         }
+        //space 
+         for(int j=1; j<=2*(n-i); j++){
+           System.out.print(" ");
+         }
+
+        // number
+         for(int j =i; j>=1; j--){
+            System.out.print(j);
+         }
+         System.out.println();
+    }
+}
 public static void main(String[] args) {
-    Pattern13(4);
+    Pattern16(4);
 }
 }
