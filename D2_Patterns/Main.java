@@ -440,12 +440,12 @@ public static void Pattern25(int n){
     int val = n;
     for(int i=1; i<=2*n-1; i++){
           for(int j =1; j<=2*n-1; j++){
-            if(i==1 || i==2*n-1 || j==1 || j==2*n-1){
-                System.out.print(val);
-            }
-            else{
-                System.out.print(val-1);
-            }
+                int right = (2*n-1)-j+1; 
+                int left  = j; 
+                int up = i;
+                int down = (2*n-1)-i+1;
+                int mini = Math.min(Math.min(right, left), Math.min(up, down));
+                System.out.print(val-mini +" ");
           }
           
           System.out.println();
