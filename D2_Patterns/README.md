@@ -279,3 +279,41 @@
        * *    * *
        **      **
        *        *
+
+## Pattern32
+
+      Pascal's Triangle
+
+         1 
+        1 1 
+       1 2 1 
+      1 3 3 1 
+     1 4 6 4 1 
+        
+        🧮 Explanation:
+
+        --Outer loop → handles rows.
+
+        --Inner space loop → aligns the triangle.
+
+        --Inner number loop → prints the binomial coefficients using formula.
+
+        -- next = previous * (row-col)/(col+1).
+
+        -- Each row starts with 1.
+
+## Pattern33
+
+               1 
+              1 2
+             1 2 3
+            1 2 3 4
+           1 2 3 4 5
+
+## Pattern34
+
+              1 1 1 1 1 
+               2 2 2 2
+                3 3 3
+                 4 4
+                  5

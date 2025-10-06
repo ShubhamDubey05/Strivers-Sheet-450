@@ -571,8 +571,55 @@ public static void Pattern31(int n){
         System.out.println();
     }
 }
+
+public static void Pattern32(int n) {
+    for (int i = 0; i < n; i++) {                 // outer loop → for each row
+        for (int j = 0; j < n - i; j++) {         // print leading spaces
+            System.out.print(" ");
+        }
+
+        int number = 1;                           // first number in each row is always 1
+
+        for (int j = 0; j <= i; j++) {            // inner loop → print numbers in row
+            System.out.print(number + " ");
+            number = number * (i - j) / (j + 1);  // formula to get next number
+        }
+
+        System.out.println();                     // move to next line
+    }
+}
+
+public static void Pattern33(int n){
+    for(int i  =1; i<=n; i++){
+        // space
+        for(int j =1; j<=n-i; j++){
+            System.out.print(" ");
+        }
+        // numbers
+        int number = 1;
+        for(int j =1; j<=i; j++){
+            System.out.print(number++ +" ");
+        }
+        System.out.println();
+    }
+}
+
+public static void Pattern34(int n){
+    for(int i =1; i<=n ; i++){
+        // spaces
+        for(int j =1; j<=i-1; j++){
+            System.out.print(" ");
+        }
+        // number
+        for(int j=1; j<=n-i+1; j++){
+            System.out.print(i +" ");
+        }
+        System.out.println();
+    }
+}
+
 public static void main(String[] args) {
-    Pattern31(5);
+    Pattern34(5);
   
 }
 }
