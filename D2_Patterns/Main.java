@@ -374,8 +374,85 @@ public static void Pattern21(int n) {
         System.out.println();
     }
 }
+public static void Pattern22(int n) {
+    for (int i = 1; i <= n; i++) {
+        for (char ch = (char)('E' - i + 1); ch <= 'E'; ch++) {
+            System.out.print(ch + " ");
+        }
+        System.out.println();
+    }
+}
 
+public static void Pattern23(int n) {
+    for (int i = 1; i <= 2 * n; i++) {
+        if (i <= n) {
+            // Left stars
+            for (int j = 1; j <= n - i + 1; j++) {
+                System.out.print("*");
+            }
+
+            // Middle spaces
+            for (int j = 1; j <= 2 * i - 2; j++) {
+                System.out.print(" ");
+            }
+
+            // Right stars
+            for (int j = 1; j <= n - i + 1; j++) {
+                System.out.print("*");
+            }
+        } else {
+            // Lower half
+            int k = i - n;
+
+            // Left stars
+            for (int j = 1; j <= k; j++) {
+                System.out.print("*");
+            }
+
+            // Middle spaces
+            for (int j = 1; j <= 2 * (n - k); j++) {
+                System.out.print(" ");
+            }
+
+            // Right stars
+            for (int j = 1; j <= k; j++) {
+                System.out.print("*");
+            }
+        }
+        System.out.println();
+    }
+}
+
+public static void Pattern24(int n){
+    for(int i=1; i<=n; i++){
+         for(int j=1; j<=n; j++){
+            if(i==1 || i==n || j==1 || j==n){
+                System.out.print("*");
+            }
+            else{
+                System.out.print(" ");
+            }
+         }
+         System.out.println();
+    }
+}
+public static void Pattern25(int n){
+    int val = n;
+    for(int i=1; i<=2*n-1; i++){
+          for(int j =1; j<=2*n-1; j++){
+            if(i==1 || i==2*n-1 || j==1 || j==2*n-1){
+                System.out.print(val);
+            }
+            else{
+                System.out.print(val-1);
+            }
+          }
+          
+          System.out.println();
+    }
+}
 public static void main(String[] args) {
-    Pattern20(5);
+    Pattern25(4);
+  
 }
 }

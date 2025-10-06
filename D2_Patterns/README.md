@@ -176,3 +176,33 @@
            ABCBA
           ABCDCBA
          ABCDEDCBA
+
+
+## Patterns22
+  
+              E 
+              D E
+              C D E
+              B C D E
+              A B C D E
+
+## Pattern23
+           
+             **********
+             ****  ****
+             ***    ***
+             **      **
+             *        *
+             *        *
+             **      **
+             ***    ***
+             ****  ****
+             **********
+
+## Pattern24
+
+               ****
+               *  *
+               *  *
+               ****
+
