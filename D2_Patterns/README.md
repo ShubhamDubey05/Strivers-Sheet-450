@@ -1,40 +1,42 @@
 ## Pattern1
+    Rectangle
+      
     * * * * *
     * * * * *
     * * * * *
     * * * * *
     * * * * *
-   [Submit here] (https://www.naukri.com/code360/problems/n-forest_6570177)
+  
 
 ## Pattern2
-
+    Half pyramid
     *
     * *
     * * *
     * * * *
     * * * * *
-   [Submit here] (https://www.naukri.com/code360/problems/n-2-forest_6570178)
+   
 
 ## Pattern3
-
+     Half pyramid
     1
     1 2
     1 2 3
     1 2 3 4
     1 2 3 4 5
-    [Submit here] (https://www.naukri.com/code360/problems/n-triangles_6573689)
+    
 
 ## Pattern4
-
+    Half pyramid
     1
     2 2
     3 3 3
     4 4 4 4
     5 5 5 5 5
-    [Submit here] (https://www.naukri.com/code360/problems/triangle_6573690)
+    
 
 ## Pattern5
-
+     Inverted Half Pyramid
      * * * * *
      * * * *
      * * *
@@ -42,7 +44,7 @@
      *
 
 ## Pattern6
-
+    Inverted Half Pyramid(Rotate by 180 deg)
     * * * * *
       * * * *
         * * *
@@ -138,6 +140,7 @@
         12344321
 
 ## Pattern17
+         Floyd's Triangle
 
          1 
          2 3
@@ -200,6 +203,7 @@
              **********
 
 ## Pattern24
+               Hollow Rectangle
 
                ****
                *  *
@@ -215,3 +219,63 @@
              3 2 1 1 1 2 3
              3 2 2 2 2 2 3
              3 3 3 3 3 3 3
+
+## Pattern26
+              ButterFly 
+              
+               *      *
+               **    **
+               ***  ***
+               ********
+               ********
+               ***  ***
+               **    **
+               *      *
+
+## Pattern27
+
+                 *****
+                *****
+               *****
+              *****
+             *****
+
+## Pattern28
+          
+                1 
+               2 2
+              3 3 3
+             4 4 4 4
+            5 5 5 5 5
+
+## Pattern29
+          
+              1
+             212
+            32123
+           4321234
+          543212345
+
+## Pattern30
+
+         *
+        ***
+       *****
+      *******
+      *******
+       *****
+        ***
+         *
+          
+## Pattern31
+
+       *        *
+       **      **
+       * *    * *
+       *  *  *  *
+       *   **   *
+       *   **   *
+       *  *  *  *
+       * *    * *
+       **      **
+       *        *
