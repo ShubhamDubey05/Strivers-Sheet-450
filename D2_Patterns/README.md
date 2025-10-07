@@ -387,3 +387,17 @@
                  * *
                 *   *
                *     *
+
+## Pattern42
+
+                   1234567
+                   123 567
+                   12   67
+                   1     7
+
+## Pattern43
+
+                     ABCDEFG
+                     ABC EFG
+                     AB   FG
+                     A     G

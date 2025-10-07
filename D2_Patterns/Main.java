@@ -798,12 +798,57 @@ public static void Pattern41(int n){
 
 public static void Pattern42(int n){
     for(int i=1; i<=n;  i++){
-        
+        if(i==1){
+            for(int j=1; j<=2*n-1; j++){
+                System.out.print(j);
+            }
+        }
+         else {
+            for(int j = 1; j<=n-i+1;j++){
+                System.out.print(j);
+            }
+            for(int j = 1;j<=2*(i-1)-1; j++){
+                System.out.print(" ");
+            }
+            for(int j= n+(i-1);j<=2*n-1; j++){
+                System.out.print(j);
+            }
+         }
+        System.out.println();
+    }
+}
+
+public static void Pattern43(int n) {
+    int totalChars = 2 * n - 1; // total characters
+
+    for (int i = 1; i <= n; i++) {
+        if (i == 1) {
+            // first row
+            for (char ch = 'A'; ch < 'A' + totalChars; ch++) {
+                System.out.print(ch);
+            }
+        } else {
+            
+            for (char ch = 'A'; ch < 'A' + (n - i + 1); ch++) {
+                System.out.print(ch);
+            }
+
+            // spaces in middle
+            for (int s = 1; s <= 2 * (i - 1) - 1; s++) {
+                System.out.print(" ");
+            }
+
+            
+            for (char ch = (char) ('A' + n + i - 2); ch < 'A' + totalChars; ch++) {
+                System.out.print(ch);
+            }
+        }
+        System.out.println();
     }
 }
 
 public static void main(String[] args) {
-    Pattern41(7);
+    Pattern43(4);
   
 }
 }
