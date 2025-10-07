@@ -847,8 +847,32 @@ public static void Pattern43(int n) {
     }
 }
 
+public static void Pattern44(int n) {
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= 4 * n - 3; j++) {
+
+                // Left half of W
+                if (j < 2 * n) {
+                    if (i + j == n + 1 || j - i == n - 1) {
+                        System.out.print("*");
+                    } else {
+                        System.out.print(" ");
+                    }
+                }
+                // Right half of W
+                else {
+                    if (i + j == 2 * n + (n - 1) || j - i == 2 * n + 1) {
+                        System.out.print("*");
+                    } else {
+                        System.out.print(" ");
+                    }
+                }
+            }
+            System.out.println();
+        }
+    }
 public static void main(String[] args) {
-    Pattern43(4);
+    Pattern44(4);
   
 }
 }

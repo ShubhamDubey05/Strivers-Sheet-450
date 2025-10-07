@@ -401,3 +401,10 @@
                      ABC EFG
                      AB   FG
                      A     G
+
+## Pattern44
+
+                      *     *   
+                     * *   * *
+                    *   * *   *
+                   *     *     *
