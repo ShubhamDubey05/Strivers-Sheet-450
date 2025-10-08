@@ -111,9 +111,3 @@ Binary: (110101)_2 → Octal: (65)_8 → Hex: (35)_16
 
 ---
 
-## 💬 Interview Questions
-1. What is the base of hexadecimal system? → 16  
-2. Convert (1101)_2 to decimal → 13  
-3. Convert (255)_10 to hexadecimal → FF  
-4. Why computers use binary? → Because they operate using two states: ON (1) and OFF (0).
-    ## 1's Complement
