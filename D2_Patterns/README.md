@@ -540,5 +540,5 @@ A     G
 
 ### 👨‍💻 Author
 **Shubham Dubey**  
-🎓 B.Tech (IT), DR.A.P.J. Abdul Kalam Technical university Lucknow.  
+🎓 B.Tech (IT) -  DR.A.P.J. Abdul Kalam Technical university Lucknow.  
 
