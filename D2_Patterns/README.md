@@ -1,6 +1,6 @@
 # 🎯 Java Pattern Printing Programs
 
-This repository contains **44 Java pattern printing programs** — from **basic to advanced**, including **stars, numbers, and alphabets.**  
+In which **44 Java pattern printing programs** — from **basic to advanced**, including **stars, numbers, and alphabets.**  
 Each pattern is neatly formatted for easy reference and practice.
 
 ---
@@ -540,5 +540,5 @@ A     G
 
 ### 👨‍💻 Author
 **Shubham Dubey**  
-🎓 B.Tech (IT), Ambalika Institute of Management & Technology  
-💻 Skills: Java | HTML | CSS | JS | React | SQL | Bootstrap  
+🎓 B.Tech (IT), DR.A.P.J. Abdul Kalam Technical university Lucknow.  
+
