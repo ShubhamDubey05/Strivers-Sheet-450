@@ -103,11 +103,35 @@ Binary: (110101)_2 → Octal: (65)_8 → Hex: (35)_16
 
 ---
 
-## 🧠 Applications of Number Systems
-- **Computers** – use binary for all internal processing.  
-- **Programming** – hexadecimal & binary for memory representation.  
-- **Networking** – IP addresses use binary and decimal.  
-- **Digital Electronics** – octal & hex simplify binary circuits.
+## Operators
+      There are few operators to frequently used in programming.
+   ### AND (&)
+     - In which both operand should be true than it will give true, otherwise it will give false;
+     - when you & 1 with an Number, digits remain the same.
+     Example  :-
 
----
 
+   ### OR (|)
+    - if one true than , true
+
+  ### XOR (^)
+
+     - if and only if
+     - One should be true
+      
+      a^1= ~a
+      a^0 = a
+      a^a = 0
+
+   ### Letf shift(<<)
+
+    a<<1 = 2*a
+    a<<b = a*2^b
+
+  ### Right shift (>>)
+     a>>1 = a/2
+     a>>b = a/2^b
+     
+
+
+  
