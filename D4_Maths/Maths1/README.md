@@ -133,5 +133,83 @@ Binary: (110101)_2 → Octal: (65)_8 → Hex: (35)_16
      a>>b = a/2^b
      
 
+  ### 2's complement of a number
 
+
+   -- 2's complement of any number gives us a negative of that number
+
+   - convert the number into binary
+   - flip all the bit 1 to 0 and 0 to 1
+   - add 1 in the number
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   ## Q1 - Convert the decimal number to Binary Number
+
+   ## Q2 - Convert the Binary to Decimal Number
   
