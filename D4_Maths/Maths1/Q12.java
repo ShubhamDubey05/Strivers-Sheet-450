@@ -31,5 +31,15 @@ public class Q12 {
        }
        if (n==1) cnt++;
        System.out.println(cnt);
+
+       // approach -3
+
+       n = 15;
+       int cntt =0;
+       while(n!=0){
+          n = n & (n-1);
+          cntt++;
+       }
+       System.out.println(cntt);
   }
 }
