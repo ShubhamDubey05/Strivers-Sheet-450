@@ -189,11 +189,11 @@ a >> b → a / 2^b
 8️⃣ Find Single Number  
 9️⃣ Find iᵗʰ Bit of a Number  
 🔟 Set the iᵗʰ Bit  
-11️⃣ Reset the iᵗʰ Bit  
-12️⃣ Position of Rightmost Set Bit  
-13️⃣ XOR of Numbers from 0 → a  
-14️⃣ XOR of All Numbers Between a & b  
-15️⃣ Flipping Image Problem  
+1️⃣1️⃣ Reset the iᵗʰ Bit  
+1️⃣2️⃣ Position of Rightmost Set Bit  
+1️⃣3️⃣ XOR of Numbers from 0 → a  
+1️⃣4️⃣ XOR of All Numbers Between a & b  
+1️⃣5️⃣ Flipping Image Problem  
 
 ---
 
