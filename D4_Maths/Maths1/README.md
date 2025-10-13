@@ -157,7 +157,6 @@ Steps:
 | Operator | Symbol | Description |
 |-----------|---------|-------------|
 | **AND** | `&` | True only if both operands are true |
-| **OR** | `|` | True if at least one operand is true |
 | **XOR** | `^` | True only if exactly one operand is true |
 | **NOT** | `~` | Inverts all bits |
 | **Left Shift** | `<<` | Multiplies the number by 2ⁿ |
@@ -183,7 +182,7 @@ a >> b → a / 2^b
 2️⃣ Convert Binary to Decimal  
 3️⃣ Find 1’s Complement  
 4️⃣ Find 2’s Complement  
-5️⃣ Find Negative of a Number  
+5️⃣ Negative of a Number  
 6️⃣ Find Missing & Repeating Number  
 7️⃣ Check Odd or Even  
 8️⃣ Find Single Number  
