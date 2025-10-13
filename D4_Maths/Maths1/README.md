@@ -186,14 +186,16 @@ a >> b → a / 2^b
 6️⃣ Check the i^th bit set or not  
 7️⃣ Set the i^th bit 
 8️⃣ Clear the i^th bit
-9️⃣ Toggling the i^th bit                        
+9️⃣ Toggling the i^th bit 
+🔟 Removing the last set bit (right most) 
+11  Check if is the a number power of 2 or not
+12  Count the number of set bits
+
 6️⃣ Find Missing & Repeating Number  
 7️⃣ Check Odd or Even  
 8️⃣ Find Single Number  
 9️⃣ Find iᵗʰ Bit of a Number  
-🔟 Set the iᵗʰ Bit  
-1️⃣1️⃣ Reset the iᵗʰ Bit  
-1️⃣2️⃣ Position of Rightmost Set Bit  
+
 1️⃣3️⃣ XOR of Numbers from 0 → a  
 1️⃣4️⃣ XOR of All Numbers Between a & b  
 1️⃣5️⃣ Flipping Image Problem  
