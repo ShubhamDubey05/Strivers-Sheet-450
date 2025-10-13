@@ -182,7 +182,7 @@ a >> b → a / 2^b
 2️⃣ Convert Binary to Decimal  
 3️⃣ Find 1’s Complement  
 4️⃣ Find 2’s Complement  
-5️⃣ Negative of a Number  
+5️⃣ Swap two numbers
 6️⃣ Find Missing & Repeating Number  
 7️⃣ Check Odd or Even  
 8️⃣ Find Single Number  
