@@ -182,7 +182,11 @@ a >> b → a / 2^b
 2️⃣ Convert Binary to Decimal  
 3️⃣ Find 1’s Complement  
 4️⃣ Find 2’s Complement  
-5️⃣ Swap two numbers
+5️⃣ Swap two numbers 
+6️⃣ Check the i^th bit set or not  
+7️⃣ Set the i^th bit 
+8️⃣ Clear the i^th bit
+9️⃣ Toggling the i^th bit                        
 6️⃣ Find Missing & Repeating Number  
 7️⃣ Check Odd or Even  
 8️⃣ Find Single Number  
