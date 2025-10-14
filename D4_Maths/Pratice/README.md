@@ -1,4 +1,5 @@
 1 Minimum Bit flips to convert a number
+2 Power set
 
 
 1 Find Missing & Repeating Number  
