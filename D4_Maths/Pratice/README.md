@@ -1,6 +1,7 @@
 1 Minimum Bit flips to convert a number
 2 Power set
-
+3 Single Number https://leetcode.com/problems/single-number/submissions/1801113126
+4 Single Number 2
 
 1 Find Missing & Repeating Number  
 2 Check Odd or Even  
