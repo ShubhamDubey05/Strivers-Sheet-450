@@ -1,7 +1,23 @@
 public class Code {
   public static void main(String[] args) {
-    int[] arr = {5, 9, 10, 19, 77, 8, 3, 99};
-    System.out.println(find("Shubham", 'd'));
+    int[] arr = {5, 9, 10, 19, 77, 8, 3, 99,333,1234, 34562};
+    int ans = findEvenNoOfDigits(arr);
+    System.out.println(ans);
+  }
+
+
+  public static int findEvenNoOfDigits(int [] arr){
+    int ans  =0;
+    for(int i =0; i<arr.length; i++){
+      int  cnt  =0;
+      int val = arr[i];
+      while(val!=0){
+        cnt++;
+        val = val/10;
+      }
+      if(cnt%2==0) ans++;
+    }
+    return ans;
   }
 
   public static int linearSearch(int[] arr, int target) {
