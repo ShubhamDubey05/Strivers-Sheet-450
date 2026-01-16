@@ -4,11 +4,27 @@ Selection Sort is a comparison-based sorting algorithm that repeatedly selects t
 ---
 
 ## 🔹 How Does Selection Sort Work?
-1. Divide the array into sorted and unsorted parts  
-2. Find the minimum element from the unsorted part  
-3. Swap it with the first unsorted element  
-4. Move the boundary of the sorted part  
-5. Repeat until the array is sorted  
+      Step-1   Find the minimum or maximum element from the array.
+             if maximum element than put at the last index.
+             if minimum element than put at the first index.
+      Step-2 Reduce the array by one from first or last.
+      step-3 Reapet the proces untill array is not sorted.
+
+
+      Example - 13 , 46,  24, 52 , 20, 9
+
+         Step-1 Find the minimum element from the array   // ele = 9 index = 0.
+
+         Step-2  Swapped the elements minimum index to 0 index  13 to 9 
+
+                9 , 46,  24, 52 , 20, 13.
+         Step-3 Reduce the array by one , check the element in only in unsorted array index-1.
+
+         Step-4 Reapet the steps untill array is not sorted //  ele = 13 index = 1;
+                 
+           After swapping 9 , 13,  24, 52 , 20, 46
+          
+
 
 ---
 
