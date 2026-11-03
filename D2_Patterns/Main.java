@@ -871,8 +871,20 @@ public static void Pattern44(int n) {
             System.out.println();
         }
     }
+public static void Pattern45(int n){
+        for(int i=1; i<=2*n-1; i++){
+            for(int j=1; j<=2*n-1; j++){
+                int btm = 2*n-i;
+                int right = 2*n-j;
+                int min = Math.min(i, j);
+                min = Math.min(min, Math.min(btm, right));
+                System.out.print(n-min+1);
+            }
+            System.out.println();
+        }
+    }
 public static void main(String[] args) {
-    Pattern44(4);
+    Pattern45(5);
   
 }
 }

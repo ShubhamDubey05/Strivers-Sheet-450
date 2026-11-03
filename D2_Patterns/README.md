@@ -545,12 +545,10 @@ A     G
 5 5 5 5 5 5 5 5 5
 
 ```
-
-
 ---
 
 ## 🏁 Summary
-✅ 44 Java patterns (Stars, Numbers, Alphabets)  
+✅ 45 Java patterns (Stars, Numbers, Alphabets)  
 ✅ Covers basic → advanced levels  
 ✅ Helpful for interviews and coding practice  
 
