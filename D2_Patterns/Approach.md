@@ -8,11 +8,15 @@ Har cell ke liye 4 distances calculate karenge:
 3. Top distance = i
 4. Bottom distance = 2*n - 2 - i
 In chaaron distances ka minimum nikalenge.
+```
        00000
        01110
        01210
        01110
        00000
+       
+```
+
 - Value = n - minimumDistance
 
 
