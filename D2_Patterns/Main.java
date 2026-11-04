@@ -235,6 +235,47 @@ public static void Pattern13(int n){
     }
 }
 public static void Pattern14(int n) {
+
+    /* 
+     Solution 1
+
+
+    for(int row=1; row<=2*n-1; row++){
+        if(row<=n){
+            for(int star =1; star<=row; star++){
+                System.out.print("*");
+            }
+            for(int space=1; space<=2*(n-row); space++){
+                System.out.print(" ")
+            }
+               for(int star =1; star<=row; star++){
+                System.out.print("*");
+            }
+        }
+        else{
+            for(int star = 1; star<=2*n-row; star++){
+                 System.out.print("*");
+            }
+              for(int space=1; space<=2*(row-n); space++){
+                System.out.print(" ")
+            }
+            for(int star = 1; star<=2*n-row; star++){
+                 System.out.print("*");
+            }
+
+        }
+       System.out.println();
+     }
+     
+    }
+*/
+
+    // Solution 2
+
+
+
+
+
     for (int i = 1; i < 2 * n; i++) {
 
         if (i > n) {
