@@ -322,6 +322,9 @@ public static void Pattern14(int n) {
     }
 }
 public static void Pattern15(int n){
+
+    // Solution 1 
+
        int start =1;
     for(int i  =1; i<=n; i++){
           start = (i % 2 == 0) ? 0 : 1;
@@ -331,6 +334,39 @@ public static void Pattern15(int n){
             }
             System.out.println();
     }
+    /*
+    
+      Solution 2
+
+        for(int row=1; row<=n; row++){
+            if(row%2==0){
+               int start= 0;
+               for(int print = 1; print<=row; print++){
+                System.out.print(start+" ");
+                if(start==0){
+                    start=1;
+                }else{
+                    start=0;
+                }
+               } 
+            }else{
+                 int start= 1;
+               for(int print = 1; print<=row; print++){
+                System.out.print(start+" ");
+                if(start==0){
+                    start=1;
+                }else{
+                    start=0;
+                }
+               } 
+            }
+            System.out.println();
+            } 
+    
+    
+    
+    
+    */
 }
 public static void Pattern16(int n){
     for(int i =1; i<=n; i++){
@@ -687,7 +723,23 @@ public static void Pattern35(int n){
 }
 
 public static void Pattern36(int n){
-    for(int i = 1; i<=n; i++){
+     // Solution 1
+            for(int row=1;row<=n;row++){
+            for(int col=1; col<=2*n-1; col++){
+                if(row==n || row+col-n==1 || col-row==n-1){
+                    System.out.print("*");
+                }else{
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+
+
+   // solution 2
+
+
+  /*   for(int i = 1; i<=n; i++){
         if(i == n){
             for(int j =1; j<=2*n-1; j++){
                 System.out.print("*");
@@ -715,6 +767,7 @@ public static void Pattern36(int n){
         
           System.out.println();
     }
+          */
 }
 
 public static void Pattern37(int n){
